@@ -1,0 +1,2 @@
+con command: ssh -i "PersonalKey.pem" ubuntu@ec2-54-187-170-21.us-west-2.compute.amazonaws.com
+git token: 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
