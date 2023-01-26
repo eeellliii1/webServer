@@ -5,6 +5,7 @@
     left: 0;
     min-height: 100%;
     min-width: 100%;
+    width: 100%;
 }
 
 #button
@@ -12,4 +13,9 @@
     position: fixed;
     top: 150px;
     left: 50%;
+}
+
+body
+{
+    background-color: black;
 }
