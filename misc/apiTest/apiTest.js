@@ -193,7 +193,7 @@ async function apiCallTest()
 {
     try
     {
-        test = await axios.get("http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=440&count=3&maxlength=300&format=json");
+        test = await axios.get("http://cs.pugetsound.edu/~dchiu/cs240/api/simone/?cmd=start");
         console.log(test);
     }
     catch(error)
