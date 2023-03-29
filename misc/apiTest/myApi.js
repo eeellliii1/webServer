@@ -15,12 +15,17 @@ app.listen(port, () => {
 console.log("Port Opened");
 
 app.get("/testApi", async function (req, resp){
+
+    console.log("Request Recieved for /testApi");
+
     resp.header("Access-Control-Allow-Origin", "*");
     resp.status(200).send(
         {
             testField : "testValue",
             testFieldTwo : "anotherValue"
         });
+
+    console.log("Response Sent for /testApi");
 });
 
 
