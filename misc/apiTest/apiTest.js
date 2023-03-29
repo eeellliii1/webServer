@@ -7,7 +7,7 @@ async function apiCallTest()
 {
     try
     {
-        test = await axios.get("http://cs.pugetsound.edu/~dchiu/cs240/api/simone/?cmd=start");
+        test = await axios.get("http://35.89.38.20:5500/testApi");
         console.log(test);
     }
     catch(error)
