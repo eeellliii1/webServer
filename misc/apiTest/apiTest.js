@@ -10,8 +10,8 @@ async function apiCallTest()
         test = await axios.get("http://35.89.38.20:5500/testApi",
         {
             params: {
-                testParam: "someValue",
-                otherTestParam: "someOtherValue"
+                testParam : "someValue",
+                otherTestParam : "someOtherValue"
             }
         });
         console.log(test);
